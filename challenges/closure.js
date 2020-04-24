@@ -26,7 +26,7 @@ myFunction();
 
 const summation = (num) => {
   let counter = 0;
-  return function() {
+  return () => {
     for(let i = 1; i <= num; i++) {
       counter += i;
     }
